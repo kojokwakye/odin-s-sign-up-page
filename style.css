@@ -1,0 +1,9 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.side-bar {
+    font-family: norse-bold;
+    font-size: 70px;
+}
