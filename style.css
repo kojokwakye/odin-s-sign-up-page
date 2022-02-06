@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid pink;
-}
+} */
 
 body {
     margin: 0;
@@ -71,6 +71,7 @@ button {
 
 .focus {
     border: 1px solid #E5E7EB;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 a {
