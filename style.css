@@ -1,5 +1,6 @@
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -7,27 +8,25 @@
     src: url(fonts/Norse-Bold.otf);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-}
-
 .main {
     display: flex;
-}
-
-.main-text {
-    background-color: #dfcece30;
-}
-
-.left-section {
     height: 100vh;
-    width: 350px;
-    position: relative;
+}
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .side-bar {
+    width: 50%;
+}
+
+.side-image {
+    object-fit: cover;
+    object-position: left;
     height: 100vh;
 }
 
@@ -38,23 +37,24 @@ body {
     background-color: rgb(3 3 3 / 57%);
     opacity: 1.50;
     position: absolute;
-    top: 150px;
-    width: inherit;
-    display: flex;
-    justify-content: center;
+    top: 70px;
+}
+
+.text-area {
+    background-color: #bc8f8f30;
+    font-weight: bold;
+    min-height: 220px;
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
 }
 
 .image-credit {
+    background-color: red;
     position: absolute;
-    bottom: 0;
-    width: inherit;
-    display: flex;
-    justify-content: center;
-    opacity: 0.7;
-}
-
-.button-section {
-    background-color: #dfcece30;
+    bottom: 10px;
 }
 
 button {
@@ -62,15 +62,7 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     background-color: #596D48;
-}
-
-input {
-    border: 1px solid #E5E7EB;
-}
-
-input.focus {
-    border: 1px solid blue;
-    box-shadow: lightblue;
+    color: white;
 }
 
 a {
