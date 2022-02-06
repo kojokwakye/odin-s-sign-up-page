@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid pink;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -63,6 +67,10 @@ button {
     padding: 10px 20px;
     background-color: #596D48;
     color: white;
+}
+
+.focus {
+    border: 1px solid #E5E7EB;
 }
 
 a {
