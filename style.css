@@ -12,26 +12,21 @@ body {
     src: url(fonts/Norse-Bold.otf);
 }
 
+.side-bar {
+    background: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    height: 100%;
+    width: 500px;
+}
+
 .main {
-    display: flex;
     height: 100vh;
+    display: flex;
 }
 
 .content {
-    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-}
-
-.side-bar {
-    width: 50%;
-}
-
-.side-image {
-    object-fit: cover;
-    object-position: left;
-    height: 100vh;
+    flex-direction: column;
 }
 
 .odin-logo {
@@ -40,14 +35,11 @@ body {
     color: white;
     background-color: rgb(3 3 3 / 57%);
     opacity: 1.50;
-    position: absolute;
-    top: 70px;
 }
 
 .text-area {
     background-color: #bc8f8f30;
     font-weight: bold;
-    min-height: 220px;
     padding: 20px;
 }
 
@@ -57,8 +49,6 @@ body {
 
 .image-credit {
     background-color: red;
-    position: absolute;
-    bottom: 10px;
 }
 
 button {
@@ -69,9 +59,12 @@ button {
     color: white;
 }
 
-.focus {
+input {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     border: 1px solid #E5E7EB;
-    box-shadow: 0 4px 2px -2px gray;
 }
 
 a {
