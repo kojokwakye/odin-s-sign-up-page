@@ -6,5 +6,8 @@ assignment is supposed to look like this [this](https://cdn.statically.io/gh/The
 
 side bar image from https://unsplash.com/photos/25xggax4bSA and logo was provided by odin  
 
-this looks like garbage.  
-i promise i will write a clean code for this when i figure things out 
+this looks like **garbage**.   
+
+-- page breaks when i apply style to form  
+-- looks like shit on smaller screens  
+--not responsive on mobile (dont even look at it on mobile, please)
