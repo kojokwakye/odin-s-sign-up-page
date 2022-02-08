@@ -23,6 +23,7 @@
 }
 
 body {
+    display: flex;
     height: 100vh;
 }
 
@@ -54,14 +55,14 @@ body {
 }
 
 .info {
-    padding-top: 60px;
+    padding-top: 150px;
 }
 
 .text-area {
     background-color: #bc8f8f30;
     font-weight: bold;
     padding: 0 20px;
-    height: 200px;
+    height: 250px;
 }
 
 .form-header {
@@ -96,7 +97,13 @@ input {
     border-radius: 5px;
     height: 30px;
     width: 400px;
+    margin-right: 10px;
     display: block;
+}
+
+.error {
+    margin-top: 5px;
+    color: red;
 }
 
 .input {
