@@ -54,15 +54,15 @@ body {
     text-align: center;
 }
 
-.info {
-    padding-top: 150px;
+.top.text-area {
+    padding-top: 100px;
 }
 
 .text-area {
     background-color: #bc8f8f30;
     font-weight: bold;
-    padding: 0 20px;
     height: 250px;
+    padding: 0 20px;
 }
 
 .form-header {
@@ -85,6 +85,7 @@ button {
     padding: 10px 20px;
     background-color: #596D48;
     color: white;
+    margin-bottom: 10px;
 }
 
 input.focus {
