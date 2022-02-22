@@ -1,117 +1,108 @@
 * {
-    /* outline: 1px solid rgb(136, 19, 39); */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* outline: 1px solid rgb(136, 19, 39); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: norse-bold;
-    src: url(fonts/Norse-Bold.otf);
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
 }
-
-.side-bar {
-    background: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
 body {
-    display: flex;
-    height: 100vh;
+  height: 100%;
+}
+.side-bar {
+  background: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .main {
-    display: flex;
-    height: 100vh;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  height: 100vh;
 }
 
 .odin-logo {
-    font-family: norse-bold;
-    font-size: 70px;
-    color: white;
-    background-color: rgb(3 3 3 / 57%);
-    opacity: 1.50;
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
+  font-family: norse-bold;
+  font-size: 70px;
+  color: white;
+  background-color: rgb(3 3 3 / 57%);
+  opacity: 1.5;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .image-credit {
-    margin-bottom: 20px;
-    text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .top.text-area {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .text-area {
-    background-color: #bc8f8f30;
-    font-weight: bold;
-    height: 250px;
-    padding: 0 20px;
+  background-color: #bc8f8f30;
+  font-weight: bold;
+  /* height: 250px; */
+  padding: 0 20px;
 }
 
 .form-header {
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .form {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 form {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: #596D48;
-    color: white;
-    margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #596d48;
+  color: white;
+  margin-bottom: 10px;
 }
 
 input.focus {
-    border: 1px solid rgb(154, 154, 194);
-    box-shadow: 2px 1px 2px 2px rgba(120, 120, 172, 0.219);
+  border: 1px solid rgb(154, 154, 194);
+  box-shadow: 2px 1px 2px 2px rgba(120, 120, 172, 0.219);
 }
 
 input {
-    border: 1px solid #E5E7EB;
-    border-radius: 5px;
-    height: 30px;
-    width: 400px;
-    margin-right: 10px;
-    display: block;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  height: 30px;
+  width: 350px;
+  margin-right: 10px;
+  display: block;
 }
 
 .error {
-    margin-top: 5px;
-    color: red;
+  margin-top: 5px;
+  color: red;
 }
 
 .input {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
