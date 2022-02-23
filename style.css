@@ -109,7 +109,7 @@ a {
   color: inherit;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .side-bar {
     display: none;
   }
@@ -120,8 +120,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   }
-input {
-  width: 200px;
-}
-  
+  input {
+    width: 200px;
+  }
 }
