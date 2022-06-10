@@ -9,4 +9,4 @@ side bar image from https://unsplash.com/photos/25xggax4bSA and logo was provide
 this looks like **garbage**.   
 
 -- looks like shit on smaller screens  
---not responsive on mobile (dont even look at it on mobile, please)
+-- not responsive on mobile (dont even look at it on mobile, please)
