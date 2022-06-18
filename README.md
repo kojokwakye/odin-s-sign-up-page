@@ -6,7 +6,6 @@ it's suppose to look like this [this](https://cdn.statically.io/gh/TheOdinProjec
 
 side bar image from https://unsplash.com/photos/25xggax4bSA and logo was provided by the odin project  
 
-this looks like **garbage**.   
-
+-- this looks like **garbage**.   
 -- looks like shit on smaller screens  
 -- not responsive on mobile (dont even look at it on mobile, please)
